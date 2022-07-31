@@ -1,0 +1,49 @@
+main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
+.form_login {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.eyeIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.form_group input {
+  height: 40px;
+  padding: 0 8px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgb(205, 205, 205);
+}
+
+.form_login button {
+  height: 40px;
+  border-radius: 8px;
+  background-color: orange;
+  color: black;
+  border: none;
+  outline: none;
+}

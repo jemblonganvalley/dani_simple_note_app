@@ -1,0 +1,33 @@
+.mainNavbar {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: orange;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.brand {
+  user-select: none;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: white;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  user-select: none;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
